@@ -1,0 +1,30 @@
+>R A
+1 2
+E
+>R B
+1 2
+K
+>R C
+1 2
+M
+<R E
+1 2
+A
+<R K
+1 2
+B
+<R M
+1 2
+C
+>RB A
+1 2
+J
+<RB J
+1 2
+A
+>RK K
+1 2
+Q
+<RK Q
+1 2
+K

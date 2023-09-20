@@ -1,0 +1,167 @@
+// Ceasar Cipher Tests
+>C HELLO WORLD
+1 2
+IFMMP XPSME
+<C IFMMP XPSME
+1 2
+HELLO WORLD
+>C3 SOUP
+1 2
+VRXS
+<C7 A YLE
+1 2
+T REX
+>c13 A monster cipher!
+1 2
+N ZBAFGRE PVCURE
+<c13 n zbafgre pvcure
+1 2
+A MONSTER CIPHER
+// subtotal
+// Afine Cipher Tests
+amap = BCDEFGHIJKLMNOPQRSTUVWXYZA
+0
+>A TEST
+1 2
+UFTU
+amap = EKMFLGDQVZNTOWYHXUSPAIBRCJ
+0
+>A ABCDE XYZ
+1 2
+EKMFL RCJ
+<A oervoao lggyup
+1 2
+MAXIMUM EFFORT
+<A DULEP ZYK
+1 2
+GREAT JOB
+// subtotal
+// Rotor Tests
+>R A
+1 2
+E
+>R B
+1 2
+K
+>R C
+1 2
+M
+<R E
+1 2
+A
+<R K
+1 2
+B
+<R M
+1 2
+C
+>RB A
+1 2
+J
+<RB J
+1 2
+A
+>RK K
+1 2
+Q
+<RK Q
+1 2
+K
+// subtotal
+// Enigma Machine Tests
+>E A
+1 1
+Z
+<E A
+1 1
+D
+>EABC A
+1 1
+U
+<EZZZ A
+1 1
+B
+rotors = II III IV
+0
+offset = A A Z
+0
+plugboard = AA BB CC DD EE FF GG HH II JJ
+0
+P
+1 1
+S
+S
+1 1
+P
+rotors = V III I
+0
+x
+1 1
+R
+rotors = I II III
+0
+g
+1 1
+P
+plugboard = AZ BY CX DW EV FU GT HS IR JQ
+0
+g
+1 1
+U
+h
+1 1
+L
+l
+1 1
+H
+rotors = IV II I
+0
+offset = B C Z
+0
+plugboard = QA WS ED RF TG YH UJ IK OL MB
+0
+i
+1 1
+R
+I can't believe it! Cool!
+1 1
+RYPBZMWQVKSBPNRVMD
+rypbz mwqvk sbpnr vmd
+1 1
+ICANTBELIEVEITCOOL
+rotors = I IV II
+0
+offset = GDC
+0
+Wonder Woman
+1 1
+APROLGPMEDY
+offset = rad
+0
+Wonder Woman
+1 1
+NKGELFRXFMO
+rotors = III I IV
+0
+Wonder Woman!
+1 2
+MJBKVCDCCEO
+rotors = III II I
+0
+offset = NDO
+0
+plugboard = AZ BY CX DW EV FU GT HS IR JQ
+0
+RQGMLJZFCE
+1 1
+BARRELROLL
+rotors = III IV I
+0
+offset = BIP
+0
+plugboard = AA
+0
+mango
+1 1
+WCHVE
+// subtotal
